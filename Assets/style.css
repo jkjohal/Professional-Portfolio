@@ -3,6 +3,7 @@ body{
     padding:0;
 }
 
+
 header{
     background-color: aqua;
     display: flex;
@@ -11,7 +12,12 @@ header{
     padding: 0 10px 0 10px;
 }
 
+/*ABOUT ME SECTION*/
+.portrait-pic{
+    min-height: 300px;
+    max-height: 300px;
 
+}
 /* WORK SECTION */
 .my-work{
     display: flex;
