@@ -6,31 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jeevan's Portfolio</title>
     <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-    <header>
-        <h1>Jeevan Johal</h1>
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#my-work">My Work</a>
-            <a href="#contact-me">Contact Me</a>
-        </nav>
-    </header>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Jeevan Johal</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+             <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-work">My Work</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+         </div>
+     </nav>
+  
     <main>
-        <section class="about-me">
-            <h2>About Me</h2>
-            <img src="./Assets/Images/IMG-6409.jpg" alt="Jeevan holding Chup in front of a Christmas Tree" class="portrait-pic">
-            <p>My name is Jeevan Johal and I am a Computer Resource Specialist for the UC Davis COVID-19 testing kiosk.</p>
-        </section>
-        <section class="my-work">
+        <div class="row" id="about-me">
+            <div class="col s12 m7">
+              <div class="card">
+                <div class="card-image">
+                  <img src="Assets/Images/IMG-6409.jpg">
+                  <span class="card-title">About Me</span>
+                </div>
+                <div class="card-content">
+                  <p>My name is Jeevan Johal and I aspire to have a career in Information Technology.  I currently work as a Computer Resource Specialist for the UC Davis COVID-19 testing kiosk.  I am also currently enrolled in the UC Davis Coding Bootcamp.  I graduated from UC Davis in December 2020 with a major in Biological Sciences and a minor in Education.  I plan to start a master's program in computer science or information technogy (as soon as I get in 🤣).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <section class="my-work" id="my-work">
             <h2>My Work</h2>
             <div class="projects">
-                <div class=" project project1"></div>
-                <div class="project project2"></div>
-                <div class="project project3"></div>
+              <div class="row">
+                <div class="col s12 m7">
+                  <div class="card">
+                    <div class="card-image">
+                      <img src="Assets/Images/horiseon_thumbnail.png">
+                    <div class="card-action">
+                      <a href="https://jkjohal.github.io/horiseon-refactor/">Horiseon Refactor</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
         </section>
-        <section class="contact-me">
+        <section class="contact-me" id="contact-me">
             <h2>Contact Me</h2>
         </section>
     </main>
